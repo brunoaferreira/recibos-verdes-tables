@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "year": 2025,
+  "version": "2025.1.0",
+  "status": "final",
+  "checkedOn": "2026-10-23",
+  "minAppVersion": "1.0.0",
+  "pendingChangeNote": "A dispensa de retenções inferiores a 25 € aplica-se desde 1 de julho de 2025; o simulador aplica-a ao ano inteiro. O simulador aplica a saída no próprio ano do regime de isenção do art. 53.º do CIVA ao ano inteiro; para ultrapassagens do limite de 25 % anteriores a 1 de julho de 2025, a mudança de regime só produziu efeitos em 1 de julho de 2025 (DL 35/2025, art. 10.º, n.º 7). Na Madeira, a taxa de 16,1 % aplica-se ao ano inteiro; as retenções feitas entre 1 de janeiro e 2 de julho de 2025 foram efetuadas a 23 % e não foram corrigidas na fonte (DLR 2/2025/M, art. 17; docs/rules/categoria-b.md §5.3).",
+  "sources": [
+    { "id": "cirs68", "title": "CIRS art. 68.º (Lei 55-A/2025)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs68ra_202512.aspx" },
+    { "id": "ram", "title": "DLR 3/2025/M (efeitos a 1 de janeiro de 2025)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/outros_diplomas/Documents/Decreto_Legislativo_Regional_3_2025_M.pdf" },
+    { "id": "attaxas", "title": "AT, Sistema Fiscal Português: taxas 2025 (Açores, solidariedade)", "url": "https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/SFP-Taxas-2025.pdf" },
+    { "id": "cirs25", "title": "CIRS art. 25.º; AT, deduções e taxas para rendimentos de 2025", "url": "https://info.portaldasfinancas.gov.pt/pt/apoio_ao_contribuinte/Cidadaos/Rendimentos/Declaracao/Deducoes_beneficios_taxas" },
+    { "id": "cirs78b", "title": "CIRS art. 78.º-B", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78b.aspx" },
+    { "id": "cirs70", "title": "CIRS art. 70.º (mínimo de existência, redação de 2025)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs70ra_202512.aspx" },
+    { "id": "cirs12b", "title": "CIRS art. 12.º-B (IRS Jovem)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs12b.aspx" },
+    { "id": "cirs102", "title": "CIRS art. 102.º (pagamentos por conta)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs102.aspx" },
+    { "id": "cirs31", "title": "CIRS arts. 28.º e 31.º (regime simplificado)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx" },
+    { "id": "cirs101", "title": "CIRS arts. 101.º e 101.º-B (retenção na fonte)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101.aspx" },
+    { "id": "civa", "title": "CIVA arts. 18.º, 53.º e 58.º; Ofício-Circulado 25045/2024", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/artigo-53-o-do-civa.aspx" },
+    { "id": "crc", "title": "Código dos Regimes Contributivos arts. 145.º–168.º; Guia Prático 1009 v1.09", "url": "https://www.seg-social.pt/ptss/pssd/documento/cmc1xyfxz00dekl2ynxz676sw" },
+    { "id": "crc53", "title": "Código dos Regimes Contributivos art. 53.º (23,75 % entidade, 11 % trabalhador)", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34514575" },
+    { "id": "ias", "title": "Portaria 6-B/2025/1 (IAS 2025)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Portaria_6_B_2025_1.pdf" },
+    { "id": "rmmg", "title": "DL 112/2024 (RMMG 2025)", "url": "https://www.dgert.gov.pt/contratacao-coletiva-relacoes-do-trabalho/remuneracoes-do-trabalho/remuneracao-minima-mensal-garantida" },
+    { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" }
+  ],
+  "ias": { "cents": 52250, "source": "ias" },
+  "rmmg": { "cents": 87000, "source": "rmmg" },
+  "irs": {
+    "brackets": {
+      "continente": [
+        { "upToCents": 805900, "normalRate": 12500, "averageRate": 12500 },
+        { "upToCents": 1216000, "normalRate": 16000, "averageRate": 13680 },
+        { "upToCents": 1723300, "normalRate": 21500, "averageRate": 15982 },
+        { "upToCents": 2230600, "normalRate": 24400, "averageRate": 17897 },
+        { "upToCents": 2840000, "normalRate": 31400, "averageRate": 20794 },
+        { "upToCents": 4162900, "normalRate": 34900, "averageRate": 25277 },
+        { "upToCents": 4498700, "normalRate": 43100, "averageRate": 26607 },
+        { "upToCents": 8369600, "normalRate": 44600, "averageRate": 34929 },
+        { "upToCents": null, "normalRate": 48000, "averageRate": null }
+      ],
+      "madeira": [
+        { "upToCents": 805900, "normalRate": 8750, "averageRate": 8750 },
+        { "upToCents": 1216000, "normalRate": 11200, "averageRate": 9576 },
+        { "upToCents": 1723300, "normalRate": 15050, "averageRate": 11188 },
+        { "upToCents": 2230600, "normalRate": 17080, "averageRate": 12528 },
+        { "upToCents": 2840000, "normalRate": 21980, "averageRate": 14556 },
+        { "upToCents": 4162900, "normalRate": 24430, "averageRate": 17694 },
+        { "upToCents": 4498700, "normalRate": 36640, "averageRate": 19108 },
+        { "upToCents": 8369600, "normalRate": 40590, "averageRate": 29041 },
+        { "upToCents": null, "normalRate": 46560, "averageRate": null }
+      ],
+      "source": "cirs68",
+      "madeiraSource": "ram"
+    },
+    "acoresRateFactor": 70000,
+    "solidarity": {
+      "continente": [
+        { "fromCents": 8000000, "toCents": 25000000, "rate": 2500 },
+        { "fromCents": 25000000, "toCents": null, "rate": 5000 }
+      ],
+      "acores": [
+        { "fromCents": 8000000, "toCents": 25000000, "rate": 1750 },
+        { "fromCents": 25000000, "toCents": null, "rate": 3500 }
+      ],
+      "source": "attaxas"
+    },
+    "deducaoEspecificaCatACents": 446215,
+    "deducaoEspecificaCatASource": "cirs25",
+    "despesasGerais": { "rate": 35000, "capCents": 25000, "source": "cirs78b" },
+    "minimoExistencia": {
+      "vrCents": 1218000,
+      "rampFactor": 260000,
+      "lDivisor": 360000,
+      "factorF": 135000,
+      "exclusionIasMultiple": 3080000,
+      "predominanceShare": 50000,
+      "source": "cirs70"
+    },
+    "irsJovem": {
+      "schedule": [
+        { "year": 1, "pct": 100000, "capIasMultiple": 55 },
+        { "year": 2, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 3, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 4, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 5, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 6, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 7, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 8, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 9, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 10, "pct": 25000, "capIasMultiple": 55 }
+      ],
+      "source": "cirs12b"
+    },
+    "pagamentosPorConta": { "rate": 65000, "minPaymentCents": 5000, "source": "cirs102" }
+  },
+  "catB": {
+    "coefficients": { "art151": 75000, "outros_servicos": 35000, "vendas": 15000 },
+    "startReduction": { "firstYear": 50000, "secondYear": 75000 },
+    "rule15": { "rate": 15000, "ssThresholdRate": 10000, "deducaoCents": 446215 },
+    "simplifiedLimitCents": 20000000,
+    "source": "cirs31"
+  },
+  "retencao": {
+    "rates": {
+      "continente": { "art151": 23000, "outros_servicos": 11500, "vendas": 0 },
+      "madeira": { "art151": 16100, "outros_servicos": 11500, "vendas": 0 },
+      "acores": { "art151": 16100, "outros_servicos": 8050, "vendas": 0 }
+    },
+    "dispensaThresholdCents": 1500000,
+    "minWithholdingCents": 2500,
+    "source": "cirs101"
+  },
+  "iva": {
+    "normalRate": { "continente": 23000, "madeira": 22000, "acores": 16000 },
+    "art53ThresholdCents": 1500000,
+    "art53HardBreachFactor": 125000,
+    "art53InYearExit": true,
+    "source": "civa"
+  },
+  "ss": {
+    "rate": 21400,
+    "relevantIncome": { "services": 70000, "goods": 20000 },
+    "minContributionCents": 2000,
+    "organisedMinBaseIasMultiple": 150000,
+    "capIasMultiple": 12,
+    "accumulationIasMultiple": 4,
+    "accumulationMinSalaryIasMultiple": 1,
+    "accumulationMinContributionCents": 500,
+    "exemptionMonths": 12,
+    "employeeRate": 11000,
+    "employerRate": 23750,
+    "source": "crc",
+    "employmentSource": "crc53"
+  },
+  "calendar": [
+    { "id": "ss_declaracao_trimestral-2025-01-31", "kind": "ss_declaracao_trimestral", "date": "2025-01-31" },
+    { "id": "ss_declaracao_trimestral-2025-04-30", "kind": "ss_declaracao_trimestral", "date": "2025-04-30" },
+    { "id": "ss_declaracao_trimestral-2025-07-31", "kind": "ss_declaracao_trimestral", "date": "2025-07-31" },
+    { "id": "ss_declaracao_trimestral-2025-10-31", "kind": "ss_declaracao_trimestral", "date": "2025-10-31" },
+    { "id": "iva_declaracao-2025-02-20", "kind": "iva_declaracao", "date": "2025-02-20" },
+    { "id": "iva_declaracao-2025-05-20", "kind": "iva_declaracao", "date": "2025-05-20" },
+    { "id": "iva_declaracao-2025-09-20", "kind": "iva_declaracao", "date": "2025-09-20" },
+    { "id": "iva_declaracao-2025-11-20", "kind": "iva_declaracao", "date": "2025-11-20" },
+    { "id": "iva_pagamento-2025-02-25", "kind": "iva_pagamento", "date": "2025-02-25" },
+    { "id": "iva_pagamento-2025-05-25", "kind": "iva_pagamento", "date": "2025-05-25" },
+    { "id": "iva_pagamento-2025-09-25", "kind": "iva_pagamento", "date": "2025-09-25" },
+    { "id": "iva_pagamento-2025-11-25", "kind": "iva_pagamento", "date": "2025-11-25" },
+    { "id": "irs_entrega_inicio-2025-04-01", "kind": "irs_entrega_inicio", "date": "2025-04-01" },
+    { "id": "irs_entrega_fim-2025-06-30", "kind": "irs_entrega_fim", "date": "2025-06-30" },
+    { "id": "pagamento_por_conta-2025-07-20", "kind": "pagamento_por_conta", "date": "2025-07-20" },
+    { "id": "pagamento_por_conta-2025-09-20", "kind": "pagamento_por_conta", "date": "2025-09-20" },
+    { "id": "pagamento_por_conta-2025-12-20", "kind": "pagamento_por_conta", "date": "2025-12-20" }
+  ],
+  "calendarSource": "calendar"
+}

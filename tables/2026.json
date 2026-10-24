@@ -1,0 +1,156 @@
+{
+  "schemaVersion": 1,
+  "year": 2026,
+  "version": "2026.1.0",
+  "status": "final",
+  "checkedOn": "2026-10-23",
+  "minAppVersion": "1.0.0",
+  "pendingChangeNote": "Lei 64-B/2026 autoriza a redução das taxas dos escalões 1 a 6 do IRS com efeitos a 1 de janeiro de 2026. O decreto-lei ainda não estava publicado em Diário da República a 2026-10-23. Valores calculados com a tabela da Lei 73-A/2025 (OE 2026).",
+  "sources": [
+    { "id": "cirs68", "title": "CIRS art. 68.º (Lei 73-A/2025, OE 2026)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs68.aspx" },
+    { "id": "ram", "title": "DLR 8/2025/M art. 18.º (ORAM 2026)", "url": "https://www.madeira.gov.pt//Portals/25/Documentos/Legislacao/Decreto%20Legislativo%20Regional%20n.%C2%BA%208_2025_M%2C%20de%2030%20de%20dezembro.pdf" },
+    { "id": "attaxas", "title": "AT, Sistema Fiscal Português: taxas 2026 (Açores, solidariedade)", "url": "https://info.portaldasfinancas.gov.pt/pt/apoio_contribuinte/Folhetos_informativos/Documents/SFP-Taxas-2026.pdf" },
+    { "id": "cirs25", "title": "CIRS art. 25.º; AT Newsletter n.º 39", "url": "https://info.portaldasfinancas.gov.pt/pt/at/Divulgacao/publicacoes_internas/Newsletter_AT/Documents/Newsletter-39-janeiro-2026.pdf" },
+    { "id": "cirs78b", "title": "CIRS art. 78.º-B", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78b.aspx" },
+    { "id": "cirs70", "title": "CIRS art. 70.º (mínimo de existência)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs70.aspx" },
+    { "id": "cirs12b", "title": "CIRS art. 12.º-B (IRS Jovem)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs12b.aspx" },
+    { "id": "cirs102", "title": "CIRS art. 102.º (pagamentos por conta)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs102.aspx" },
+    { "id": "cirs31", "title": "CIRS arts. 28.º e 31.º (regime simplificado)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx" },
+    { "id": "cirs101", "title": "CIRS arts. 101.º e 101.º-B (retenção na fonte)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101.aspx" },
+    { "id": "civa", "title": "CIVA arts. 18.º, 53.º e 58.º; Ofício-Circulado 25045/2024", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/artigo-53-o-do-civa.aspx" },
+    { "id": "crc", "title": "Código dos Regimes Contributivos arts. 145.º–168.º; Guia Prático 1009 v1.09", "url": "https://www.seg-social.pt/ptss/pssd/documento/cmc1xyfxz00dekl2ynxz676sw" },
+    { "id": "crc53", "title": "Código dos Regimes Contributivos art. 53.º (23,75 % entidade, 11 % trabalhador)", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34514575" },
+    { "id": "ias", "title": "Portaria 480-A/2025/1 (IAS 2026)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Portaria_480_A_2025_1.pdf" },
+    { "id": "rmmg", "title": "DL 139/2025 (RMMG 2026)", "url": "https://www.dgert.gov.pt/contratacao-coletiva-relacoes-do-trabalho/remuneracoes-do-trabalho/remuneracao-minima-mensal-garantida" },
+    { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" }
+  ],
+  "ias": { "cents": 53713, "source": "ias" },
+  "rmmg": { "cents": 92000, "source": "rmmg" },
+  "irs": {
+    "brackets": {
+      "continente": [
+        { "upToCents": 834200, "normalRate": 12500, "averageRate": 12500 },
+        { "upToCents": 1258700, "normalRate": 15700, "averageRate": 13579 },
+        { "upToCents": 1783800, "normalRate": 21200, "averageRate": 15823 },
+        { "upToCents": 2308900, "normalRate": 24100, "averageRate": 17705 },
+        { "upToCents": 2939700, "normalRate": 31100, "averageRate": 20579 },
+        { "upToCents": 4309000, "normalRate": 34900, "averageRate": 25130 },
+        { "upToCents": 4656600, "normalRate": 43100, "averageRate": 26472 },
+        { "upToCents": 8663400, "normalRate": 44600, "averageRate": 34856 },
+        { "upToCents": null, "normalRate": 48000, "averageRate": null }
+      ],
+      "madeira": [
+        { "upToCents": 834200, "normalRate": 8750, "averageRate": 8750 },
+        { "upToCents": 1258700, "normalRate": 10990, "averageRate": 9505 },
+        { "upToCents": 1783800, "normalRate": 14840, "averageRate": 11076 },
+        { "upToCents": 2308900, "normalRate": 16870, "averageRate": 12394 },
+        { "upToCents": 2939700, "normalRate": 21770, "averageRate": 14406 },
+        { "upToCents": 4309000, "normalRate": 24430, "averageRate": 17591 },
+        { "upToCents": 4656600, "normalRate": 30170, "averageRate": 18530 },
+        { "upToCents": 8663400, "normalRate": 31220, "averageRate": 24399 },
+        { "upToCents": null, "normalRate": 33600, "averageRate": null }
+      ],
+      "source": "cirs68",
+      "madeiraSource": "ram"
+    },
+    "acoresRateFactor": 70000,
+    "solidarity": {
+      "continente": [
+        { "fromCents": 8000000, "toCents": 25000000, "rate": 2500 },
+        { "fromCents": 25000000, "toCents": null, "rate": 5000 }
+      ],
+      "acores": [
+        { "fromCents": 8000000, "toCents": 25000000, "rate": 1750 },
+        { "fromCents": 25000000, "toCents": null, "rate": 3500 }
+      ],
+      "source": "attaxas"
+    },
+    "deducaoEspecificaCatACents": 458709,
+    "deducaoEspecificaCatASource": "cirs25",
+    "despesasGerais": { "rate": 35000, "capCents": 25000, "source": "cirs78b" },
+    "minimoExistencia": {
+      "vrCents": 1288000,
+      "rampFactor": 260000,
+      "lDivisor": 360000,
+      "factorF": 135000,
+      "exclusionIasMultiple": 3080000,
+      "predominanceShare": 50000,
+      "source": "cirs70"
+    },
+    "irsJovem": {
+      "schedule": [
+        { "year": 1, "pct": 100000, "capIasMultiple": 55 },
+        { "year": 2, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 3, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 4, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 5, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 6, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 7, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 8, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 9, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 10, "pct": 25000, "capIasMultiple": 55 }
+      ],
+      "source": "cirs12b"
+    },
+    "pagamentosPorConta": { "rate": 65000, "minPaymentCents": 5000, "source": "cirs102" }
+  },
+  "catB": {
+    "coefficients": { "art151": 75000, "outros_servicos": 35000, "vendas": 15000 },
+    "startReduction": { "firstYear": 50000, "secondYear": 75000 },
+    "rule15": { "rate": 15000, "ssThresholdRate": 10000, "deducaoCents": 458709 },
+    "simplifiedLimitCents": 20000000,
+    "source": "cirs31"
+  },
+  "retencao": {
+    "rates": {
+      "continente": { "art151": 23000, "outros_servicos": 11500, "vendas": 0 },
+      "madeira": { "art151": 16100, "outros_servicos": 11500, "vendas": 0 },
+      "acores": { "art151": 16100, "outros_servicos": 8050, "vendas": 0 }
+    },
+    "dispensaThresholdCents": 1500000,
+    "minWithholdingCents": 2500,
+    "source": "cirs101"
+  },
+  "iva": {
+    "normalRate": { "continente": 23000, "madeira": 22000, "acores": 16000 },
+    "art53ThresholdCents": 1500000,
+    "art53HardBreachFactor": 125000,
+    "art53InYearExit": true,
+    "source": "civa"
+  },
+  "ss": {
+    "rate": 21400,
+    "relevantIncome": { "services": 70000, "goods": 20000 },
+    "minContributionCents": 2000,
+    "organisedMinBaseIasMultiple": 150000,
+    "capIasMultiple": 12,
+    "accumulationIasMultiple": 4,
+    "accumulationMinSalaryIasMultiple": 1,
+    "accumulationMinContributionCents": 500,
+    "exemptionMonths": 12,
+    "employeeRate": 11000,
+    "employerRate": 23750,
+    "source": "crc",
+    "employmentSource": "crc53"
+  },
+  "calendar": [
+    { "id": "ss_declaracao_trimestral-2026-01-31", "kind": "ss_declaracao_trimestral", "date": "2026-01-31" },
+    { "id": "ss_declaracao_trimestral-2026-04-30", "kind": "ss_declaracao_trimestral", "date": "2026-04-30" },
+    { "id": "ss_declaracao_trimestral-2026-07-31", "kind": "ss_declaracao_trimestral", "date": "2026-07-31" },
+    { "id": "ss_declaracao_trimestral-2026-10-31", "kind": "ss_declaracao_trimestral", "date": "2026-10-31" },
+    { "id": "iva_declaracao-2026-02-20", "kind": "iva_declaracao", "date": "2026-02-20" },
+    { "id": "iva_declaracao-2026-05-20", "kind": "iva_declaracao", "date": "2026-05-20" },
+    { "id": "iva_declaracao-2026-09-20", "kind": "iva_declaracao", "date": "2026-09-20" },
+    { "id": "iva_declaracao-2026-11-20", "kind": "iva_declaracao", "date": "2026-11-20" },
+    { "id": "iva_pagamento-2026-02-25", "kind": "iva_pagamento", "date": "2026-02-25" },
+    { "id": "iva_pagamento-2026-05-25", "kind": "iva_pagamento", "date": "2026-05-25" },
+    { "id": "iva_pagamento-2026-09-25", "kind": "iva_pagamento", "date": "2026-09-25" },
+    { "id": "iva_pagamento-2026-11-25", "kind": "iva_pagamento", "date": "2026-11-25" },
+    { "id": "irs_entrega_inicio-2026-04-01", "kind": "irs_entrega_inicio", "date": "2026-04-01" },
+    { "id": "irs_entrega_fim-2026-06-30", "kind": "irs_entrega_fim", "date": "2026-06-30" },
+    { "id": "pagamento_por_conta-2026-07-20", "kind": "pagamento_por_conta", "date": "2026-07-20" },
+    { "id": "pagamento_por_conta-2026-09-20", "kind": "pagamento_por_conta", "date": "2026-09-20" },
+    { "id": "pagamento_por_conta-2026-12-20", "kind": "pagamento_por_conta", "date": "2026-12-20" }
+  ],
+  "calendarSource": "calendar"
+}

@@ -1,0 +1,145 @@
+{
+  "schemaVersion": 1,
+  "year": 2027,
+  "version": "2027.0.1",
+  "status": "provisional",
+  "checkedOn": "2026-10-23",
+  "minAppVersion": "1.0.0",
+  "pendingChangeNote": "Proposta de OE 2027 (PPL 110/XVII), votação final prevista a 24 de novembro de 2026. IAS 2027 estimado em 550,56 € e RMMG 970 € esperada. Tabela da Madeira para 2027 ainda não publicada: é usada a tabela do continente.",
+  "sources": [
+    { "id": "cirs68", "title": "Proposta de Lei 110/XVII (OE 2027) art. 60.º", "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377352" },
+    { "id": "attaxas", "title": "Proposta de Lei 110/XVII (OE 2027) art. 60.º (contribuição adicional de solidariedade)", "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377352" },
+    { "id": "cirs25", "title": "CIRS art. 25.º (8,54 × IAS, sem alteração na Proposta de Lei 110/XVII); valor derivado do IAS 2027 estimado", "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377352" },
+    { "id": "cirs78b", "title": "CIRS art. 78.º-B", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78b.aspx" },
+    { "id": "cirs70", "title": "Proposta de Lei 110/XVII (OE 2027) art. 60.º (mínimo de existência)", "url": "https://www.parlamento.pt/ActividadeParlamentar/Paginas/DetalheIniciativa.aspx?BID=377352" },
+    { "id": "cirs12b", "title": "CIRS art. 12.º-B (IRS Jovem)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs12b.aspx" },
+    { "id": "cirs102", "title": "CIRS art. 102.º (pagamentos por conta)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs102.aspx" },
+    { "id": "cirs31", "title": "CIRS arts. 28.º e 31.º (regime simplificado)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs31.aspx" },
+    { "id": "cirs101", "title": "CIRS arts. 101.º e 101.º-B (retenção na fonte)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101.aspx" },
+    { "id": "civa", "title": "CIVA arts. 18.º, 53.º e 58.º; Ofício-Circulado 25045/2024", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/artigo-53-o-do-civa.aspx" },
+    { "id": "crc", "title": "Código dos Regimes Contributivos arts. 145.º–168.º; Guia Prático 1009 v1.09", "url": "https://www.seg-social.pt/ptss/pssd/documento/cmc1xyfxz00dekl2ynxz676sw" },
+    { "id": "crc53", "title": "Código dos Regimes Contributivos art. 53.º (23,75 % entidade, 11 % trabalhador)", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34514575" },
+    { "id": "ias", "title": "IAS 2027 estimado (Proposta de Orçamento da AR 2027)", "url": "https://www.parlamento.pt/GestaoAR/Documents/oar/PropostaOrcamentoAR2027.pdf" },
+    { "id": "rmmg", "title": "RMMG 2027 esperada (970 €)", "url": "https://www.dgert.gov.pt/contratacao-coletiva-relacoes-do-trabalho/remuneracoes-do-trabalho/remuneracao-minima-mensal-garantida" },
+    { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" }
+  ],
+  "ias": { "cents": 55056, "source": "ias" },
+  "rmmg": { "cents": 97000, "source": "rmmg" },
+  "irs": {
+    "brackets": {
+      "continente": [
+        { "upToCents": 866600, "normalRate": 12200, "averageRate": 12200 },
+        { "upToCents": 1307500, "normalRate": 15200, "averageRate": 13212 },
+        { "upToCents": 1853000, "normalRate": 20700, "averageRate": 15416 },
+        { "upToCents": 2398500, "normalRate": 23600, "averageRate": 17277 },
+        { "upToCents": 3053800, "normalRate": 30600, "averageRate": 20136 },
+        { "upToCents": 4476200, "normalRate": 34600, "averageRate": 24732 },
+        { "upToCents": 4837300, "normalRate": 43100, "averageRate": 26104 },
+        { "upToCents": 8999500, "normalRate": 44600, "averageRate": 34658 },
+        { "upToCents": null, "normalRate": 48000, "averageRate": null }
+      ],
+      "madeira": null,
+      "source": "cirs68",
+      "madeiraSource": null
+    },
+    "acoresRateFactor": 70000,
+    "solidarity": {
+      "continente": [
+        { "fromCents": 8999500, "toCents": 25000000, "rate": 2500 },
+        { "fromCents": 25000000, "toCents": null, "rate": 5000 }
+      ],
+      "acores": [
+        { "fromCents": 8999500, "toCents": 25000000, "rate": 1750 },
+        { "fromCents": 25000000, "toCents": null, "rate": 3500 }
+      ],
+      "source": "attaxas"
+    },
+    "deducaoEspecificaCatACents": 470178,
+    "deducaoEspecificaCatASource": "cirs25",
+    "despesasGerais": { "rate": 35000, "capCents": 25000, "source": "cirs78b" },
+    "minimoExistencia": {
+      "vrCents": 1358000,
+      "rampFactor": 260000,
+      "lDivisor": 360000,
+      "factorF": 135000,
+      "exclusionIasMultiple": 3080000,
+      "predominanceShare": 50000,
+      "source": "cirs70"
+    },
+    "irsJovem": {
+      "schedule": [
+        { "year": 1, "pct": 100000, "capIasMultiple": 55 },
+        { "year": 2, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 3, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 4, "pct": 75000, "capIasMultiple": 55 },
+        { "year": 5, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 6, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 7, "pct": 50000, "capIasMultiple": 55 },
+        { "year": 8, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 9, "pct": 25000, "capIasMultiple": 55 },
+        { "year": 10, "pct": 25000, "capIasMultiple": 55 }
+      ],
+      "source": "cirs12b"
+    },
+    "pagamentosPorConta": { "rate": 65000, "minPaymentCents": 5000, "source": "cirs102" }
+  },
+  "catB": {
+    "coefficients": { "art151": 75000, "outros_servicos": 35000, "vendas": 15000 },
+    "startReduction": { "firstYear": 50000, "secondYear": 75000 },
+    "rule15": { "rate": 15000, "ssThresholdRate": 10000, "deducaoCents": 470178 },
+    "simplifiedLimitCents": 20000000,
+    "source": "cirs31"
+  },
+  "retencao": {
+    "rates": {
+      "continente": { "art151": 23000, "outros_servicos": 11500, "vendas": 0 },
+      "madeira": { "art151": 16100, "outros_servicos": 11500, "vendas": 0 },
+      "acores": { "art151": 16100, "outros_servicos": 8050, "vendas": 0 }
+    },
+    "dispensaThresholdCents": 1500000,
+    "minWithholdingCents": 2500,
+    "source": "cirs101"
+  },
+  "iva": {
+    "normalRate": { "continente": 23000, "madeira": 22000, "acores": 16000 },
+    "art53ThresholdCents": 1500000,
+    "art53HardBreachFactor": 125000,
+    "art53InYearExit": true,
+    "source": "civa"
+  },
+  "ss": {
+    "rate": 21400,
+    "relevantIncome": { "services": 70000, "goods": 20000 },
+    "minContributionCents": 2000,
+    "organisedMinBaseIasMultiple": 150000,
+    "capIasMultiple": 12,
+    "accumulationIasMultiple": 4,
+    "accumulationMinSalaryIasMultiple": 1,
+    "accumulationMinContributionCents": 500,
+    "exemptionMonths": 12,
+    "employeeRate": 11000,
+    "employerRate": 23750,
+    "source": "crc",
+    "employmentSource": "crc53"
+  },
+  "calendar": [
+    { "id": "ss_declaracao_trimestral-2027-01-31", "kind": "ss_declaracao_trimestral", "date": "2027-01-31" },
+    { "id": "ss_declaracao_trimestral-2027-04-30", "kind": "ss_declaracao_trimestral", "date": "2027-04-30" },
+    { "id": "ss_declaracao_trimestral-2027-07-31", "kind": "ss_declaracao_trimestral", "date": "2027-07-31" },
+    { "id": "ss_declaracao_trimestral-2027-10-31", "kind": "ss_declaracao_trimestral", "date": "2027-10-31" },
+    { "id": "iva_declaracao-2027-02-20", "kind": "iva_declaracao", "date": "2027-02-20" },
+    { "id": "iva_declaracao-2027-05-20", "kind": "iva_declaracao", "date": "2027-05-20" },
+    { "id": "iva_declaracao-2027-09-20", "kind": "iva_declaracao", "date": "2027-09-20" },
+    { "id": "iva_declaracao-2027-11-20", "kind": "iva_declaracao", "date": "2027-11-20" },
+    { "id": "iva_pagamento-2027-02-25", "kind": "iva_pagamento", "date": "2027-02-25" },
+    { "id": "iva_pagamento-2027-05-25", "kind": "iva_pagamento", "date": "2027-05-25" },
+    { "id": "iva_pagamento-2027-09-25", "kind": "iva_pagamento", "date": "2027-09-25" },
+    { "id": "iva_pagamento-2027-11-25", "kind": "iva_pagamento", "date": "2027-11-25" },
+    { "id": "irs_entrega_inicio-2027-04-01", "kind": "irs_entrega_inicio", "date": "2027-04-01" },
+    { "id": "irs_entrega_fim-2027-06-30", "kind": "irs_entrega_fim", "date": "2027-06-30" },
+    { "id": "pagamento_por_conta-2027-07-20", "kind": "pagamento_por_conta", "date": "2027-07-20" },
+    { "id": "pagamento_por_conta-2027-09-20", "kind": "pagamento_por_conta", "date": "2027-09-20" },
+    { "id": "pagamento_por_conta-2027-12-20", "kind": "pagamento_por_conta", "date": "2027-12-20" }
+  ],
+  "calendarSource": "calendar"
+}
