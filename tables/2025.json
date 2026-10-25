@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "year": 2025,
-  "version": "2025.1.0",
+  "version": "2025.2.0",
   "status": "final",
   "checkedOn": "2026-10-23",
   "minAppVersion": "1.0.0",
@@ -22,6 +22,9 @@
     { "id": "crc53", "title": "Código dos Regimes Contributivos art. 53.º (23,75 % entidade, 11 % trabalhador)", "url": "https://diariodarepublica.pt/dr/legislacao-consolidada/lei/2009-34514575" },
     { "id": "ias", "title": "Portaria 6-B/2025/1 (IAS 2025)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/legislacao/diplomas_legislativos/Documents/Portaria_6_B_2025_1.pdf" },
     { "id": "rmmg", "title": "DL 112/2024 (RMMG 2025)", "url": "https://www.dgert.gov.pt/contratacao-coletiva-relacoes-do-trabalho/remuneracoes-do-trabalho/remuneracao-minima-mensal-garantida" },
+    { "id": "rnh72", "title": "CIRS art. 72.º n.º 10 (redação até 2023), mantido pela Lei 82/2023 art. 236.º n.º 3", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs72ra_202312.aspx" },
+    { "id": "ebf58a", "title": "EBF art. 58.º-A (IFICI); Ofício-Circulado 20276/2025", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/ebf58a.aspx" },
+    { "id": "cirs101d", "title": "CIRS art. 101.º n.º 1 d) (retenção RNH / IFICI)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101.aspx" },
     { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" }
   ],
   "ias": { "cents": 52250, "source": "ias" },
@@ -92,7 +95,18 @@
       ],
       "source": "cirs12b"
     },
-    "pagamentosPorConta": { "rate": 65000, "minPaymentCents": 5000, "source": "cirs102" }
+    "pagamentosPorConta": { "rate": 65000, "minPaymentCents": 5000, "source": "cirs102" },
+    "special": {
+      "rate": { "continente": 20000, "acores": 14000, "madeira": 20000 },
+      "periodYears": 10,
+      "rnhLatestFirstYear": 2024,
+      "ificiEarliestFirstYear": 2024,
+      "solidarityOnSpecial": true,
+      "ppcIncludesSpecial": true,
+      "minimoCountsSpecial": true,
+      "irsJovemExcluded": true,
+      "sources": { "rnh": "rnh72", "ifici": "ebf58a" }
+    }
   },
   "catB": {
     "coefficients": { "art151": 75000, "outros_servicos": 35000, "vendas": 15000 },
@@ -109,7 +123,8 @@
     },
     "dispensaThresholdCents": 1500000,
     "minWithholdingCents": 2500,
-    "source": "cirs101"
+    "source": "cirs101",
+    "special": { "rates": { "continente": 20000, "acores": 14000, "madeira": 20000 }, "source": "cirs101d" }
   },
   "iva": {
     "normalRate": { "continente": 23000, "madeira": 22000, "acores": 16000 },
