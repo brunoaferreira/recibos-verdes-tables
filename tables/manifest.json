@@ -2,31 +2,31 @@
   "schemaVersion": 1,
   "years": {
     "2024": {
-      "version": "2024.2.0",
+      "version": "2024.3.0",
       "status": "final",
       "minAppVersion": "1.0.0",
-      "sha256": "ba4486df046ba5bae6ad40cbd32119af07ecf47d3a0d60a62b9c5510378b22f1",
+      "sha256": "89cb3099de0919f66037a4322136b8e3257c52fa06db15b7e2f1ff5695bd3f6d",
       "url": "2024.json"
     },
     "2025": {
-      "version": "2025.2.0",
+      "version": "2025.3.0",
       "status": "final",
       "minAppVersion": "1.0.0",
-      "sha256": "6ee69fb6f0f2bd6b927b237d6e7dd0aea8cbfec97d421411bc6f9f75508d14ab",
+      "sha256": "94245ad01bdb8911f63bd9f945127f6916964cbe6a06e362b51dbfb59c6ab9e3",
       "url": "2025.json"
     },
     "2026": {
-      "version": "2026.2.0",
+      "version": "2026.3.0",
       "status": "final",
       "minAppVersion": "1.0.0",
-      "sha256": "58313e26a061a196655a62545f04745db2c118ec6f29341e335fff82b9ab069f",
+      "sha256": "44e7aeeb70f3cb204e57c4c69a7f08cda494b9ac99fe4da2785552889ccaf9d3",
       "url": "2026.json"
     },
     "2027": {
-      "version": "2027.0.2",
+      "version": "2027.0.3",
       "status": "provisional",
       "minAppVersion": "1.0.0",
-      "sha256": "518649b8480f56b03b569162e737bdb268feb2745dc85cc2ca4c357e83d26e09",
+      "sha256": "73179ef7d503ec75e136f810ff98cc7778bb0fd3ae12dcc2e839c9e7f11a248c",
       "url": "2027.json"
     }
   }

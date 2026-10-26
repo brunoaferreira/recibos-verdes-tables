@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "year": 2025,
-  "version": "2025.2.0",
+  "version": "2025.3.0",
   "status": "final",
   "checkedOn": "2026-10-23",
   "minAppVersion": "1.0.0",
@@ -25,7 +25,23 @@
     { "id": "rnh72", "title": "CIRS art. 72.º n.º 10 (redação até 2023), mantido pela Lei 82/2023 art. 236.º n.º 3", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/ra/Pages/irs72ra_202312.aspx" },
     { "id": "ebf58a", "title": "EBF art. 58.º-A (IFICI); Ofício-Circulado 20276/2025", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/bf_rep/Pages/ebf58a.aspx" },
     { "id": "cirs101d", "title": "CIRS art. 101.º n.º 1 d) (retenção RNH / IFICI)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101.aspx" },
-    { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" }
+    { "id": "calendar", "title": "CRC art. 151.º-A; CIVA arts. 27.º e 41.º; CIRS arts. 60.º e 102.º", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva41.aspx" },
+    { "id": "cirs13", "title": "CIRS art. 13.º (agregado familiar, dependentes)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs13.aspx" },
+    { "id": "cirs59", "title": "CIRS art. 59.º (rendimentos dos dependentes; opção pela tributação conjunta)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs59.aspx" },
+    { "id": "cirs69", "title": "CIRS art. 69.º (quociente conjugal) e art. 68.º-A n.º 3", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs69.aspx" },
+    { "id": "cirs78", "title": "CIRS art. 78.º (deduções à coleta: ordem, limite global, tributação separada)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78.aspx" },
+    { "id": "cirs78a", "title": "CIRS art. 78.º-A (dependentes e ascendentes)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78a.aspx" },
+    { "id": "cirs78c", "title": "CIRS art. 78.º-C (saúde)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78c.aspx" },
+    { "id": "cirs78d", "title": "CIRS art. 78.º-D (educação e formação)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78d.aspx" },
+    { "id": "cirs78e", "title": "CIRS art. 78.º-E (habitação); Lei 36/2024; DL 97/2026", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78e.aspx" },
+    { "id": "cirs78f", "title": "CIRS art. 78.º-F (IVA nas faturas)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs78f.aspx" },
+    { "id": "cirs84", "title": "CIRS art. 84.º (lares)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs84.aspx" },
+    { "id": "cirs87", "title": "CIRS art. 87.º (deficiência)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs87.aspx" },
+    { "id": "cirs56a", "title": "CIRS art. 56.º-A (rendimentos de pessoas com deficiência)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs56a.aspx" },
+    { "id": "cirs12a", "title": "CIRS art. 12.º-A (Programa Regressar); Ofícios-Circulados 20206/2019 e 20243/2022", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs12a.aspx" },
+    { "id": "retencao50", "title": "Retenção sobre 50 %: CIRS art. 101.º-D; Lei 12/2022 art. 280.º n.º 2 (art. 12.º-A)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/cirs_rep/Pages/irs101d.aspx" },
+    { "id": "civa19", "title": "CIVA arts. 19.º a 23.º (direito à dedução)", "url": "https://info.portaldasfinancas.gov.pt/pt/informacao_fiscal/codigos_tributarios/civa_rep/Pages/iva19.aspx" },
+    { "id": "crc168eni", "title": "Código dos Regimes Contributivos art. 168.º n.º 4; DR 1-A/2011 arts. 54.º-A e 54.º-B", "url": "https://informador.pt/?p=162343" }
   ],
   "ias": { "cents": 52250, "source": "ias" },
   "rmmg": { "cents": 87000, "source": "rmmg" },
@@ -70,7 +86,7 @@
     },
     "deducaoEspecificaCatACents": 446215,
     "deducaoEspecificaCatASource": "cirs25",
-    "despesasGerais": { "rate": 35000, "capCents": 25000, "source": "cirs78b" },
+    "despesasGerais": { "rate": 35000, "capCents": 25000, "source": "cirs78b", "singleParent": { "rate": 45000, "capCents": 33500 } },
     "minimoExistencia": {
       "vrCents": 1218000,
       "rampFactor": 260000,
@@ -106,6 +122,35 @@
       "minimoCountsSpecial": true,
       "irsJovemExcluded": true,
       "sources": { "rnh": "rnh72", "ifici": "ebf58a" }
+    },
+    "household": { "jointDivisor": 2, "separateShare": 50000, "source": "cirs69", "shareSource": "cirs78" },
+    "dependants": {
+      "baseCents": 60000, "firstYoungExtraCents": 12600, "firstYoungMaxAge": 3,
+      "laterYoungExtraCents": 30000, "laterYoungMaxAge": 6,
+      "sharedBaseCents": 30000, "sharedFirstYoungExtraCents": 6300, "sharedLaterYoungExtraCents": 15000,
+      "minorMaxAge": 17, "maxAdultAge": 25, "incomeLimitRmmgMultiple": 14,
+      "source": "cirs78a", "eligibilitySource": "cirs13", "incomeSource": "cirs59"
+    },
+    "ascendants": { "eachCents": 52500, "singleExtraCents": 11000, "source": "cirs78a" },
+    "deficiencia": {
+      "selfIas": 400000, "careIas": 400000, "dependantIas": 250000,
+      "exclusionShare": 15000, "exclusionCapCents": 250000,
+      "source": "cirs87", "exclusionSource": "cirs56a"
+    },
+    "deducoes": {
+      "saude": { "rate": 15000, "capCents": 100000, "source": "cirs78c" },
+      "educacao": { "rate": 30000, "capCents": 80000, "source": "cirs78d" },
+      "rendas": { "rate": 15000, "baseCents": 70000, "lowCents": 100000, "floorCents": null, "formulaTopRcCents": 3000000, "estimate": false, "source": "cirs78e" },
+      "juros": { "rate": 15000, "baseCents": 29600, "lowCents": 45000, "source": "cirs78e" },
+      "lares": { "rate": 25000, "capCents": 40375, "source": "cirs84" },
+      "fatura": { "capCents": 25000, "source": "cirs78f" },
+      "globalCap": { "minCents": 100000, "maxCents": 250000, "dependantRaise": 5000, "dependantRaiseFrom": 3, "source": "cirs78" }
+    },
+    "regressar": {
+      "exclusionRate": 50000, "periodYears": 5, "firstReturnYear": 2019, "lastReturnYear": 2026,
+      "capCents": 25000000, "capFromReturnYear": 2024,
+      "nonResidenceYears": [{ "fromReturnYear": 2019, "years": 3 }, { "fromReturnYear": 2024, "years": 5 }],
+      "irsJovemBarPermanent": true, "source": "cirs12a"
     }
   },
   "catB": {
@@ -124,14 +169,19 @@
     "dispensaThresholdCents": 1500000,
     "minWithholdingCents": 2500,
     "source": "cirs101",
-    "special": { "rates": { "continente": 20000, "acores": 14000, "madeira": 20000 }, "source": "cirs101d" }
+    "special": { "rates": { "continente": 20000, "acores": 14000, "madeira": 20000 }, "source": "cirs101d" },
+    "halfBaseFactor": 50000,
+    "halfBaseSource": "retencao50"
   },
   "iva": {
     "normalRate": { "continente": 23000, "madeira": 22000, "acores": 16000 },
     "art53ThresholdCents": 1500000,
     "art53HardBreachFactor": 125000,
     "art53InYearExit": true,
-    "source": "civa"
+    "source": "civa",
+    "art53TurnoverNationalOnly": true,
+    "art53AnnualiseShortYear": false,
+    "deductionSource": "civa19"
   },
   "ss": {
     "rate": 21400,
@@ -146,7 +196,9 @@
     "employeeRate": 11000,
     "employerRate": 23750,
     "source": "crc",
-    "employmentSource": "crc53"
+    "employmentSource": "crc53",
+    "rateEni": 25200,
+    "eniSource": "crc168eni"
   },
   "calendar": [
     { "id": "ss_declaracao_trimestral-2025-01-31", "kind": "ss_declaracao_trimestral", "date": "2025-01-31" },
@@ -167,5 +219,20 @@
     { "id": "pagamento_por_conta-2025-09-20", "kind": "pagamento_por_conta", "date": "2025-09-20" },
     { "id": "pagamento_por_conta-2025-12-20", "kind": "pagamento_por_conta", "date": "2025-12-20" }
   ],
-  "calendarSource": "calendar"
+  "calendarSource": "calendar",
+  "readings": {
+    "separateNonFilingSpouseHalves": true,
+    "sharedDependantRanking": "min",
+    "singleParentNeedsFullCustody": true,
+    "globalCapHalvedWhenSeparate": true,
+    "jointHousingCapOnHouseholdRc": true,
+    "disabilityRuleBaseFullGross": true,
+    "disabilityExclusionUnderSpecial": false,
+    "regressarRuleBaseFullGross": true,
+    "regressarCapOnEligibleIncome": true,
+    "mixedSsDeduction": "max",
+    "irsJovemMultiActivity": "lowestCoefficientFirst",
+    "dependantIncomeLimit": "max",
+    "dependantShareAfterNet": true
+  }
 }
